@@ -1,0 +1,10 @@
+.idea
+atlassian-ide-plugin.xml
+jaws.iml
+target/
+/bin/
+/.settings/
+/.classpath
+/.project
+jaws-full.properties
+src/test/resources/yubiClientSettings.yaml
