@@ -7,6 +7,7 @@ import org.apache.shiro.mgt.DefaultSecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
@@ -20,6 +21,7 @@ public class OtpRealmInitTest {
         SecurityUtils.setSecurityManager(new DefaultSecurityManager(new OtpRealm()));
     }
 
+    @Ignore
     @Test
     public void simpleTest() {
         Subject subject = SecurityUtils.getSubject();
